@@ -1,3 +1,4 @@
+<!--Esto es para comentar -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,11 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola Mundo</title>
+    <link rel="stylesheet" href="style.css"> <!--Esto siempre por buena practica va en el head -->
 </head>
 <body>
     <header></header>
     <main>
-        <h1>Titulo</h1>
+        <div class="header">
+        <h1 class="titulo">Salacüya</h1>
+        <ul>
+            <li><a href="moda.html">Moda</a></li>
+            <li><a href="celebrities.html">Celebrities</a></li>
+            <li><a href="viajes.html">Viajes</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+        </ul>
+        </div>
+        <H1 class="margenes">este deberia ser de otro color </H1>
+        <h1 class="estosmismocolor">hola </h1>
+        <h1 class="estosmismocolor">hola </h1>
         <h2>Subtitulo</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptates natus facilis maiores cum illo deleniti hic, consequuntur ullam ipsa provident, magnam animi omnis exercitationem eos dicta perspiciatis autem soluta!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quia sed inventore recusandae optio voluptatem, quas possimus velit maiores blanditiis aspernatur, quo accusamus provident nesciunt repudiandae aliquam quisquam sunt consectetur.
@@ -34,8 +47,27 @@
         <div></div>
         <span></span> <!-- div en bloque, span en line-->
         <Input type="button" value="hola">
+
+        <form action="" method="post">
+            <label for="user">Nombre del Usuario: 
+            <input type="text" placeholder="Ingrese Usuario" name="user"></label> <br> <!-- esto es como un enter-->
+            <label for="contrasenia"> Constraseña: 
+            <input type="password" placeholder="Ingrese Constraseña"></label>
+            <input type="checkbox" name="check_validation" id="" value="De">
+            <label for="check_validation">De acuerdo</label>
+            <input type="submit" value="Iniciar Sesión">
+            
+        </form>
+        <form method="get"></form>
+
+        <table border="3px">
+            <tr><th>Nombre</th><th>Apellido</th></tr>  <!-- tr es una fila -->
+            <tr><td>Victoria</th><th>Gastaldi</td></tr> 
+            <tr><td>Lucia</th><th>Gastaldi</td></tr> 
+        </table>
+        
+       
     </main>
     <footer></footer>
 </body>
 </html>
-<!--Esto es para comentar -->
