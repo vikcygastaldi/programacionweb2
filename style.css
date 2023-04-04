@@ -26,7 +26,7 @@ ul {
     width: 4000px;
     height: 100px;
     margin-left: 20px;
-  }
+    border-radius: 7px;  }
   
   li {
     float: left;
@@ -50,6 +50,7 @@ ul {
     margin: 52px;
     padding: 1px;
     display: flex;
+
 
   }
 
