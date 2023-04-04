@@ -2,8 +2,12 @@ body{background-color: white;}
 
 .titulo{
   font-size: 50px;
-  margin-bottom: 50px;
-
+  color: white;
+  margin-left: 200px;
+}
+.navbar{
+  background-color: #ffd4d4;
+  width: 2000px;
 }
 
 #titular{color:azure}
@@ -18,9 +22,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffd4d4;
     width: 4000px;
     height: 100px;
+    margin-left: 20px;
   }
   
   li {
@@ -71,6 +76,6 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: hsl(21, 94%, 87%);
 }
 .header{display: flex;}
