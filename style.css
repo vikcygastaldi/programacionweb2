@@ -3,11 +3,12 @@ body{background-color: white;}
 .titulo{
   font-size: 50px;
   color: white;
-  margin-left: 200px;
+  margin-left: 100px;
+  margin-top: 2px;
 }
 .navbar{
   background-color: #ffd4d4;
-  width: 2000px;
+  width: 1250px;
 }
 
 #titular{color:azure}
@@ -25,7 +26,7 @@ ul {
     background-color: #ffd4d4;
     width: 4000px;
     height: 100px;
-    margin-left: 20px;
+    margin-left: 1250px;
     border-radius: 7px;  }
   
   li {
@@ -80,3 +81,12 @@ li a:hover {
   background-color: hsl(21, 94%, 87%);
 }
 .header{display: flex;}
+
+.footer{
+    font-family: "Gluten";
+    margin-top: 20px;
+    text-align: left;
+    padding: 50px;
+    background-color:  #ffd4d4;
+    color: white;
+}
