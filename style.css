@@ -8,7 +8,7 @@ body{background-color: white;}
 }
 .navbar{
   background-color: #ffd4d4;
-  width: 1250px;
+  width: 99vw;
 }
 
 #titular{color:azure}
@@ -80,7 +80,6 @@ li a {
 li a:hover {
   background-color: hsl(21, 94%, 87%);
 }
-.header{display: flex;}
 
 .footer{
     font-family: "Gluten";
@@ -89,4 +88,10 @@ li a:hover {
     padding: 50px;
     background-color:  #ffd4d4;
     color: white;
+}
+
+.igFooter{
+  width: 30px;
+  margin-right: 90px;
+  bottom: 30px;
 }
