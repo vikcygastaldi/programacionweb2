@@ -1,4 +1,8 @@
+/* CSS de la pagina principal */
+
+
 body{background-color: white;}
+
 
 .titulo{
   font-size: 50px;
@@ -7,8 +11,13 @@ body{background-color: white;}
   margin-top: 2px;
 }
 .navbar{
-  background-color: #ffd4d4;
+  background-color:#CECDBB;
   width: 99vw;
+}
+
+.navbarsubpaginas{
+background-color:#CECDBB ;
+width: 99vw;
 }
 
 #titular{color:azure}
@@ -23,7 +32,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffd4d4;
+    background-color:#CECDBB;
     width: 4000px;
     height: 100px;
     margin-left: 1250px;
@@ -86,7 +95,7 @@ li a:hover {
     margin-top: 20px;
     text-align: left;
     padding: 50px;
-    background-color:  #ffd4d4;
+    background-color:#CECDBB;
     color: white;
 }
 
@@ -94,4 +103,105 @@ li a:hover {
   width: 30px;
   margin-right: 90px;
   bottom: 30px;
+}
+
+#carrusel-caja {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    height: 100px;
+    width: 300%;
+}
+#carrusel-contenido {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.imagenes{
+    height: 350px;
+    width: 300px;
+}
+.carrusel-elemento {
+    float: left;
+    width: 33.333%;
+}
+@-moz-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+@-webkit-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+@keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+
+.titulo2{
+  text-align:center ;
+  color: #CECDBB
 }
