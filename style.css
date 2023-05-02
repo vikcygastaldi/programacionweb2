@@ -101,15 +101,15 @@ li a {
     font-family: "Gluten";
     margin-top: 5vw;
     text-align: left;
-    padding: 50px;
+    padding: 5vw;
     background-color:#CECDBB;
     color: white;
 }
 
 .igFooter{
-  width: 30px;
-  margin-right: 90px;
-  bottom: 30px;
+  width: 3vw;
+  margin-right: 9vw;
+  bottom: 3vw;
 }
 
 #carrusel-caja {
@@ -122,7 +122,7 @@ li a {
     -ms-transition: all 0.75s ease;
     -o-transition: all 0.75s ease;
     transition: all 0.75s ease;
-    height: 100px;
+    height: 10vw;
     width: 300%;
 }
 #carrusel-contenido {
@@ -131,9 +131,9 @@ li a {
     text-align: center;
 }
 .imagenes{
-    height: 350px;
-    width: 300px;
-    border-radius: 10px;
+    height: 35vw;
+    width: 30vw;
+    border-radius: 1vw;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 .carrusel-elemento {
