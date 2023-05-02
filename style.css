@@ -3,12 +3,17 @@
 
 body{background-color: white;}
 
-
+.Fondotitulo{
+    background-color: #CECDBB;
+    display: flex;
+    align-items: center;
+    padding: 0,5vw 0,5vw
+}
 .titulo{
-  font-size: 50px;
+  font-size: 4vw;
   color: white;
-  margin-left: 100px;
-  margin-top: 2px;
+  margin-left: 5vw;
+  margin-top: 2vw;
 }
 .navbar{
   background-color:#CECDBB;
@@ -24,8 +29,8 @@ width: 99vw;
 
 .estosmismocolor{color:sienna}
 
-.margenes{margin: 10px;}
-.bordes{border: 3px;}
+.margenes{margin: 2vw;}
+.bordes{border: 3vw;}
 
 ul {
     list-style-type: none;
@@ -33,10 +38,10 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:#CECDBB;
-    width: 4000px;
-    height: 100px;
-    margin-left: 1250px;
-    border-radius: 7px;  }
+    width: 5vw;
+    height: 7vw;
+    margin-left: 5vw;
+    border-radius: 0,7vw;  }
   
   li {
     float: left;
@@ -46,7 +51,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2vw 3vw;
     text-decoration: none;
   }
   
@@ -57,8 +62,8 @@ ul {
 
 ul {
     list-style-type: none;
-    margin: 52px;
-    padding: 1px;
+    margin: 3vw;
+    padding: 1vw;
     display: flex;
 
 
@@ -81,18 +86,15 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1vw 2vw;
   text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: hsl(21, 94%, 87%);
-}
 
 .footer{
     font-family: "Gluten";
-    margin-top: 20px;
+    margin-top: 5vw;
     text-align: left;
     padding: 50px;
     background-color:#CECDBB;
@@ -126,6 +128,8 @@ li a:hover {
 .imagenes{
     height: 350px;
     width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
 }
 .carrusel-elemento {
     float: left;
