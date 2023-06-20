@@ -114,56 +114,21 @@ li a {
   color: #CECDBB
 }
 
-/* Estilos para el carousel */
-.carousel-item {
-    height: 70vw; /* Ajusta la altura según tus necesidades */
-    width: 30vw;
-  }
-  
-  .carousel-caption {
-    background-color: white; /* Fondo semitransparente para el texto */
-    color: #CECDBB; /* Color del texto */
-    padding: 20px; /* Espaciado interno */
-  }
-  
-  /* Estilos para los controles del carousel */
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 3rem; /* Ancho de los botones de control */
-    height: 3rem; /* Alto de los botones de control */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para los botones */
-    border-radius: 50%; /* Forma circular */
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: black; /* Color del icono */
-  }
-  
-  .carousel-control-prev-icon:before,
-  .carousel-control-next-icon:before {
-    content: ''; /* Elimina cualquier contenido previo */
-    position: absolute;
-    display: flex ;
-    top: 50vw; /* Posiciona el icono en el centro vertical */
-    left: 10vw; /* Posiciona el icono en el centro horizontal */
-    transform: translate(-50%, -50%); /* Centra el icono */
-  }
-  
-  /* Estilos para los indicadores del carousel */
-  .carousel-indicators {
-    bottom: 30vw; /* Posición en la parte inferior */
-  }
-  
-  .carousel-indicators button {
-    width: 10vw; /* Ancho de los indicadores */
-    height: 10vw; /* Alto de los indicadores */
-    border-radius: 50%; /* Forma circular */
-    background-color: black; /* Fondo semitransparente para los indicadores */
-  }
-  
-  .carousel-indicators .active {
-    background-color: white; /* Color del indicador activo */
-  }
+.carousel-inner {
+  width: 50%; /* Ajusta el ancho del carrusel según tus necesidades */
+  height: auto; /* Ajusta la altura del carrusel según tus necesidades */
+}
 
-  
+.carousel-item img {
+  max-width: 30%; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
+  height: auto; /* Ajusta la altura de las imágenes según tus necesidades */
+  display: flex;
+  margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* Ajusta el tamaño de los botones de navegación según tus necesidades */
+  width: 20px;
+  height: 20px;
+}
