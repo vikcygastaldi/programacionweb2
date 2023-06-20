@@ -1,0 +1,169 @@
+/* CSS de la pagina principal */
+
+
+body{background-color: white;}
+
+.Fondotitulo{
+    background-color: #CECDBB;
+    text-align: center;
+    padding: 0.2vw
+}
+
+
+.titulo{
+  font-size: 4vw;
+  color: white;
+  margin-left: 5vw;
+  margin-top: 2vw;
+}
+.navbar{
+  background-color:#CECDBB;
+  width: 99vw;
+  height: 3.5vw;
+  justify-content: center;
+  font-size: 1.5vw;
+;
+}
+
+.navbarsubpaginas{
+background-color:#CECDBB ;
+width: 99vw;
+}
+
+.margenes{margin: 2vw;}
+.bordes{border: 3vw;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#CECDBB;
+    width: 5vw;
+    height: 7vw;
+    margin-left: 5vw;
+    border-radius: 0,7vw;  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2vw 3vw;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 3vw;
+    padding: 1vw;
+    display: flex;
+
+
+  }
+
+/*si vos poner por ejemplo 10px 50px, lo que va a pasar es que va a ir 10px para arriba y para abajo y 50px a los costados*/ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vw 2vw;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.footer{
+    font-family: "Gluten";
+    margin-top: 5vw;
+    text-align: left;
+    padding: 5vw;
+    background-color:#CECDBB;
+    color: white;
+}
+
+.igFooter{
+  width: 3vw;
+  margin-right: 9vw;
+  bottom: 3vw;
+}
+
+
+.titulo2{
+  text-align:center ;
+  color: #CECDBB
+}
+
+/* Estilos para el carousel */
+.carousel-item {
+    height: 70vw; /* Ajusta la altura según tus necesidades */
+    width: 30vw;
+  }
+  
+  .carousel-caption {
+    background-color: white; /* Fondo semitransparente para el texto */
+    color: #CECDBB; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilos para los controles del carousel */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 3rem; /* Ancho de los botones de control */
+    height: 3rem; /* Alto de los botones de control */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para los botones */
+    border-radius: 50%; /* Forma circular */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black; /* Color del icono */
+  }
+  
+  .carousel-control-prev-icon:before,
+  .carousel-control-next-icon:before {
+    content: ''; /* Elimina cualquier contenido previo */
+    position: absolute;
+    display: flex ;
+    top: 50vw; /* Posiciona el icono en el centro vertical */
+    left: 10vw; /* Posiciona el icono en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centra el icono */
+  }
+  
+  /* Estilos para los indicadores del carousel */
+  .carousel-indicators {
+    bottom: 30vw; /* Posición en la parte inferior */
+  }
+  
+  .carousel-indicators button {
+    width: 10vw; /* Ancho de los indicadores */
+    height: 10vw; /* Alto de los indicadores */
+    border-radius: 50%; /* Forma circular */
+    background-color: black; /* Fondo semitransparente para los indicadores */
+  }
+  
+  .carousel-indicators .active {
+    background-color: white; /* Color del indicador activo */
+  }
+
+  
