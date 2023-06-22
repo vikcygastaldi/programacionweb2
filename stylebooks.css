@@ -14,7 +14,28 @@ color: white;
 margin-left: 5vw;
 margin-top: 2vw;
 }
+.volverInicio{
+  border: none;
+  color: white;
+  background-color: blanchedalmond;
+  box-shadow: 0 8vw 16 0 rgba(0,0,0,0.1);
+  padding: 1vw 1vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  margin: 1vw;
+  margin-left: 5vw;
+  cursor: pointer;
+  border-radius: 1vw;
+  transition-duration: 0.5s;
+  height: 4vw;
+}
 
+.volverInicio:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: blanchedalmond;
+}
 .card-deck {
     display: flex;
     flex-wrap: wrap;
