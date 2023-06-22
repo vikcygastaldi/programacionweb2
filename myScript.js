@@ -10,7 +10,7 @@ function comprar(valorproducto) {
   document.getElementById("no-productos").innerHTML = " ";
 }
 
-function descomprar(valorproducto) {
+function eliminarcompra(valorproducto) {
   if (cantidad > 0) {
     total = total - valorproducto;
     document.getElementById("total-a-pagar").innerHTML = "$" + total;
