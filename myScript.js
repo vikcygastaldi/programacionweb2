@@ -1,14 +1,40 @@
-const precioCurso1=400000
-const precioCurso2=350000
-const descu1=20
-const descu2=15
+let total = 0;
+let cantidad = 0;
 
-let preciofinal1= precioCurso1*(descu1/100)
-console.log(preciofinal1)
-let preciofinal2= precioCurso2*(descu2/100)
-console.log(preciofinal2)
-let preciofinal3= precioCurso1*(descu2/100)
-console.log(preciofinal3)
-let preciofinal4= precioCurso2*(descu1/100)
-console.log(preciofinal4)
+function comprar(valorproducto) {
+  total = total + valorproducto;
+  document.getElementById("total-a-pagar").innerHTML = "$" + total;
+  cantidad += 1;
 
+  document.getElementById("cantidad").innerHTML = cantidad;
+  document.getElementById("no-productos").innerHTML = " ";
+}
+
+function descomprar(valorproducto) {
+  if (cantidad > 0) {
+    total = total - valorproducto;
+    document.getElementById("total-a-pagar").innerHTML = "$" + total;
+    cantidad -= 1;
+    document.getElementById("cantidad").innerHTML = cantidad;
+    document.getElementById("no-productos").innerHTML = " ";
+  }
+}
+
+function vaciar() {
+  total = 0;
+  document.getElementById("total-a-pagar").innerHTML = " $" + total;
+  document.getElementById("no-productos").innerHTML =
+    "No hay productos en el carrito.";
+  cantidad = 0;
+  document.getElementById("cantidad").innerHTML = cantidad;
+}
+
+function validarCaptcha() {
+  var response = grecaptcha.getResponse();
+  if (response.length === 0) {
+    console.log("Por favor, completa el captcha.");
+    return false;
+  } else {
+    return true;
+  }
+}

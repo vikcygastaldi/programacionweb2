@@ -1,0 +1,36 @@
+
+.Fondotitulo{
+    background-color: #CECDBB;
+    text-align: center;
+    padding: 0.2vw
+}
+  
+  
+.titulo{
+  font-size: 4vw;
+  color: white;
+  margin-left: 5vw;
+  margin-top: 2vw;
+}
+
+.MeditaciónTexto{
+    background-color: #CECDBB;
+    border-radius: 1vw;
+    text-align: center;
+}
+ 
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+  
+.container-cart{
+    justify-content: center;
+    background-color: #CECDBB;
+    border-radius: 0,5vw;
+}
+  
+.carrito h2 {
+    margin-bottom: 1vw;
+}
+

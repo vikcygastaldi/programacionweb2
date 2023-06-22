@@ -1,11 +1,23 @@
 
-
+.Fondotitulo{
+    background-color: #CECDBB;
+    text-align: center;
+    padding: 0.2vw
+}
+  
+  
+.titulo{
+  font-size: 4vw;
+  color: white;
+  margin-left: 5vw;
+  margin-top: 2vw;
+}
 .card-deck {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }  
+}  
 
 .card {
     border: none;
@@ -14,7 +26,7 @@
     width: 300px; 
     margin-bottom: 20px;
   
-  }
+}
   
   .card-img-top {
     height: 200px;
@@ -43,7 +55,6 @@
   .card-link {
     display: inline-block;
     padding: 5px 10px;
-    background-color: #007bff;
     color: #CECDBB;
     text-decoration: none;
     border-radius: 5px;
