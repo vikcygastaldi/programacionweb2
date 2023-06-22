@@ -38,6 +38,12 @@
     background-color: blanchedalmond;
   }
 
+.botonesCarrito{
+    border-radius: 0,5vw;
+    color: black;
+    background-color: #CECDBB;
+    border-radius: 0,5vw;
+}
 .MeditaciónTexto{
     background-color: blanchedalmond;
     text-align: center;
