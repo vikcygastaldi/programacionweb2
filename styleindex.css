@@ -1,5 +1,7 @@
 /* CSS de la pagina principal */
-
+*{
+  font-family: 'Libre Baskerville';
+}
 
 body{background-color: white;}
 
@@ -42,7 +44,11 @@ ul {
     width: 5vw;
     height: 7vw;
     margin-left: 5vw;
-    border-radius: 0,8vw;  
+    border-radius: 0,8vw;
+    display:flex;  
+    align-items: center;
+    flex-direction: column;
+    font-family: "Gluten";
   }
   
   li {
@@ -94,7 +100,6 @@ li a {
 
 
 .footer{
-    font-family: "Gluten";
     margin-top: 5vw;
     text-align: left;
     padding: 5vw;
@@ -108,7 +113,9 @@ li a {
   bottom: 3vw;
 }
 
-
+.contenidofooter{
+font-size: 1vw;
+}
 .titulo2{
   text-align:center ;
   color: #CECDBB
@@ -124,7 +131,9 @@ li a {
   height: auto; /* Ajusta la altura de las imágenes según tus necesidades */
   display: flex;
   margin: 0 auto;
+  padding: 2%
 }
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {

@@ -1,3 +1,6 @@
+*{
+    font-family: 'Libre Baskerville';
+  }
 
 .Fondotitulo{
     background-color: #CECDBB;
@@ -13,10 +16,10 @@
   margin-top: 2vw;
 }
 
-.MeditaciónTexto{
-    background-color: #CECDBB;
-    border-radius: 1vw;
+.MeditaciónTexto{
+    background-color: blanchedalmond;
     text-align: center;
+    font-size: 1vw;
 }
  
 .contenedor{
@@ -34,3 +37,8 @@
     margin-bottom: 1vw;
 }
 
+.ultfoto{
+  width: 5vw;
+  height: 5vw;
+
+}

@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Libre Baskerville';
+}
 .Fondotitulo{
   background-color: #CECDBB;
   text-align: center;
