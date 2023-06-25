@@ -39,6 +39,9 @@ body {
   width: 20vw;
 }
 
+.carousel-inner{
+  
+}
 .margenes {
   margin: 2vw;
 }
@@ -53,12 +56,19 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #CECDBB;
-  border-radius: 0.8vw;
   display: flex;
   align-items: center;
   font-family: "Gluten";
 }
 
+.cosasnavbar{ 
+  font-size: 2vw;
+}
+@media (max-width: 576px) {
+  .cosasnavbar {
+    font-size: 2vw;
+  }
+}
 li {
   float: left;
 }
