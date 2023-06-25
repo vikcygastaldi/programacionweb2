@@ -1,97 +1,62 @@
 /* CSS de la pagina principal */
-*{
+* {
   font-family: 'Libre Baskerville';
 }
 
-body{background-color: white;}
-
-.Fondotitulo{
-    background-color: #CECDBB;
-    text-align: center;
-    padding: 0.2vw
+body {
+  background-color: white;
 }
 
+.Fondotitulo {
+  background-color: #CECDBB;
+  text-align: center;
+  padding: 0.2vw;
+}
 
-.titulo{
+.titulo {
   font-size: 4vw;
   color: white;
   margin-left: 5vw;
   margin-top: 2vw;
 }
 
-
-.navbar{
-  background-color:#CECDBB;
-  width: 100vw;
-  height: 4vw;
+.navbar {
+  background-color: #CECDBB;
+  width: 100%;
   font-size: 1.5vw;
   display: flex;
-  margin: 0 auto;
-
+  justify-content: center;
 }
+
 @media (max-width: 576px) {
-  .cosasnavbar {
+  .navbar {
     font-size: 1vw;
-
   }
 }
-.navbarsubpaginas{
-background-color:#CECDBB ;
-width: 20vw;
+
+.navbarsubpaginas {
+  background-color: #CECDBB;
+  width: 20vw;
 }
 
-.margenes{margin: 2vw;}
-.bordes{border: 3vw;}
+.margenes {
+  margin: 2vw;
+}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#CECDBB;
-    width: 5vw;
-    height: 7vw;
-    margin-left: 5vw;
-    border-radius: 0,8vw;
-    display:flex;  
-    align-items: center;
-    flex-direction: column;
-    font-family: "Gluten";
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 2vw 3vw;
-    text-decoration: none;
-  }
-  
+.bordes {
+  border: 3vw;
+}
 
-  li a:hover {
-    background-color: #111;
-  }
-
-ul {
-    list-style-type: none;
-    margin: 3vw;
-    padding: 1vw;
-    display: flex;
-
-
-  }
-
-/*si vos poner por ejemplo 10px 50px, lo que va a pasar es que va a ir 10px para arriba y para abajo y 50px a los costados*/ 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #CECDBB;
+  border-radius: 0.8vw;
+  display: flex;
+  align-items: center;
+  font-family: "Gluten";
 }
 
 li {
@@ -102,59 +67,63 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 1vw 2vw;
+  padding: 2vw 3vw;
   text-decoration: none;
 }
 
-
-.footer{
-    margin-top: 5vw;
-    text-align: left;
-    padding: 5vw;
-    background-color:#CECDBB;
-    color: white;
+li a:hover {
+  background-color: #111;
 }
 
+ul.navbar-menu {
+  width: 100%;
+  justify-content: flex-start;
+}
 
-.igFooter{
+.footer {
+  margin-top: 5vw;
+  text-align: left;
+  padding: 5vw;
+  background-color: #CECDBB;
+  color: white;
+}
+
+.igFooter {
   width: 3vw;
   margin-right: 9vw;
   bottom: 3vw;
 }
 
-.contenidofooter{
-font-size: 1vw;
+.contenidofooter {
+  font-size: 1vw;
 }
+
 @media (max-width: 576px) {
   .contenidofooter {
-    font-size: 2,5vw;
-
+    font-size: 2.5vw;
   }
 }
-.titulo2{
-  text-align:center ;
-  color: #CECDBB
+
+.titulo2 {
+  text-align: center;
+  color: #CECDBB;
 }
 
 .carousel-inner {
-  width: 50%; /* Ajusta el ancho del carrusel según tus necesidades */
-  height: auto; /* Ajusta la altura del carrusel según tus necesidades */
+  width: 100%;
+  height: auto;
 }
 
 .carousel-item img {
-  max-width: 30%; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
-  height: auto; /* Ajusta la altura de las imágenes según tus necesidades */
-  display: flex;
+  max-width: 100%;
+  height: auto;
+  display: block;
   margin: 0 auto;
-  padding: 2%
+  padding: 2%;
 }
-
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  /* Ajusta el tamaño de los botones de navegación según tus necesidades */
   width: 20px;
   height: 20px;
 }
-
-
