@@ -7,13 +7,18 @@
     text-align: center;
     padding: 0.2vw
 }
-  
-  
+
+
 .titulo{
   font-size: 4vw;
   color: white;
   margin-left: 5vw;
   margin-top: 2vw;
+}
+@media (max-width: 576px) {
+  .titulo {
+    font-size: 5vw;
+  }
 }
 .volverInicio{
     border: none;
@@ -55,7 +60,11 @@
     text-align: center;
     font-size: 1vw;
 }
- 
+@media (max-width: 576px) {
+  .MeditaciónTexto {
+    font-size: 2.5vw;
+  }
+}
 .contenedor{
     display: flex;
     justify-content: center;

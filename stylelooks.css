@@ -17,10 +17,8 @@
 }
 @media (max-width: 576px) {
   .titulo {
-    width: 30%;
-    height: 40%;
-    font-size: 3.5vw;
-  }  
+    font-size: 7vw;
+  }
 }
 .volverInicio{
     border: none;
