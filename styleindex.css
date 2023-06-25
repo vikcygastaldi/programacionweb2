@@ -20,6 +20,12 @@ body {
   margin-top: 2vw;
 }
 
+@media (max-width: 576px) {
+  .titulo {
+    font-size: 5vw;
+  }
+}
+
 .navbar {
   background-color: #CECDBB;
   width: 100%;
@@ -64,7 +70,7 @@ ul {
 }
 @media (max-width: 576px) {
   .cosasnavbar {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 }
 li {
@@ -123,7 +129,7 @@ ul.navbar-menu {
 }
 
 .carousel-item img {
-  max-width: 50%;
+  max-width: 70%;
   height: auto;
   margin: 0 auto;
   padding: 2%;
