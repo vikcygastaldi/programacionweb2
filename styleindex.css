@@ -39,9 +39,7 @@ body {
   width: 20vw;
 }
 
-.carousel-inner{
-  
-}
+
 .margenes {
   margin: 2vw;
 }
@@ -125,11 +123,11 @@ ul.navbar-menu {
 }
 
 .carousel-item img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
-  display: block;
   margin: 0 auto;
   padding: 2%;
+
 }
 
 .carousel-control-prev-icon,
